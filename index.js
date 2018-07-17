@@ -9,7 +9,7 @@ function johnLennonFacts(facts){
   var n = 0;
   var shoutedFacts = [];
   shoutedFacts.length = 2;
-  shoutedFacts.shift;
+  shoutedFacts.shift(0, 2);
   while (n < 4) {
     shoutedFacts.push(facts[n] +"!!!");
   n++; 
